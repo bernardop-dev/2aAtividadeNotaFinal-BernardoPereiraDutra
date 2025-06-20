@@ -1,3 +1,4 @@
+
 <?php
 require 'database.php';
 
@@ -9,3 +10,4 @@ $db->prepare("INSERT INTO livros (titulo, autor, ano) VALUES (?, ?, ?)")
    ->execute([$titulo, $autor, $ano]);
 
 header('Location: index.php');
+?>
