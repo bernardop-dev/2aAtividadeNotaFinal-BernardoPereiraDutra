@@ -7,3 +7,4 @@ $db->prepare("DELETE FROM livros WHERE id = ?")
    ->execute([$id]);
 
 header('Location: index.php');
+?>
